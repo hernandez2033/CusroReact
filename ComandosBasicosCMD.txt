@@ -1,0 +1,24 @@
+Comandos basicos de cmd:
+
+Ver el contenido del directorio actual:
+dir
+
+como eliminar una carpeta vasia:
+rd nombreDeLaCarpeta
+
+o
+
+rmdir nombreDeLaCarpeta
+
+Eliminar una carpeta con contenido en su interio:
+rmdir /s NombreDeLaCarpeta
+
+Eliminar un directorio con nombre que incluye espacios emblanco
+rmdir /s "NombreDeLaCarpeta"
+
+Eliminar una capeta sin confirmar y a su ves elimanr su contenido
+rmdir /Q /S NombreDeLaCarpeta
+
+Como eliminar un archivo.
+del nombreArchivo.txt
+

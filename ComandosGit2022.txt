@@ -1,0 +1,103 @@
+INSTALACION DE GIT
+
+Manual de uso de Git y GitHub
+
+primero devemos de bajar el manegador de versiones en este caso GIT:
+
+vamos a la pagina oficial:
+
+https://git-scm.com/
+
+Despues de aver instalado git ya podemos usar comandos git.
+
+ahora crearemos un repositorio en github  y estaremos listo para trabajar con git y github.
+
+Nota:
+    El Git PATH no está (o está mal) configurado en las variables – Un software reciente en el propio software o 
+    un error del usuario podría haber configurado incorrectamente el Git PATH en el paréntesis de las variables.
+    CMD se abrió durante la instalación de GIT – Si recientemente instalaste Git para Windows mientras se abría 
+    una ventana del Símbolo del sistema operativo, el problema podría resolverse tan pronto como vuelvas a 
+    abrir el Símbolo del sistema operativo.
+si en visual studio code da la alerta que el comando git no se encuetra solo cierra al terminal y buelvela abrir.
+
+------------------------------------------------------------------
+INICIALIZAR GIT.
+
+Uso de los comando de GitHub
+
+primero inicializamo git en nuestro proyecto 
+
+git init 
+
+configuramos el nombre del usuario y correo:
+
+Nombre:
+gir config user.name "Alex"
+
+Correo:
+git config user.email alex@hotmail.com
+
+Agregamos el repositorio remoto de github
+
+git remote add master URL del repositorio (master es la rama o branch)
+
+Ejemplo:
+git remote add master https://github.com/hernandez2033/CusroReact.git
+
+--------------------------------------------------------
+CLONAR REPOSITORIO.
+
+Clonar un repositorio
+
+git clone URL del repositorio
+
+------------------------------------------------------
+Subir los cambios al repositorio:
+
+git push -u master 
+
+el comando -u solo se aplica en la primer push ya que con eso se define la rama en la que se afectara cada push
+despues del primer push ya solo ejecutaremos este comando:
+
+git push
+
+-------------------------------------------------------
+
+RAMAS O BRANCH:
+
+Crear una nueva rama(brnach):
+
+git branch  Muestra las ramas 
+
+git bracha NombreDeLaNuevaRama             //crea una nueva rama
+
+
+Cambar de rama o branch
+
+git checkout NombreDeLaRama                //Cambia de rama
+
+Borrar una rama:
+
+git branch -d NombreDeLaRama               //se elimina una rama 
+
+
+
+----------------------------------------------------------
+
+VISTAS DE ESTADOS EN GIT:
+
+git log         //muestra todos los commit realizados
+
+git status     //Muesta el area de trabajo
+
+git diff NombreDelArchivo  //Muestra los cambios realizados a un archivo
+
+git remote -v              //Muestra el repositorio remoto
+
+
+
+
+
+mas comandos.
+
+https://www.hostinger.es/tutoriales/comandos-de-git

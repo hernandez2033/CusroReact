@@ -1,0 +1,65 @@
+todo desde cmd o consola de comandos
+Comandos de node: 
+
+Para instalar la vercion mas receciente de npm usamos el siguiente comando:
+
+npm install -g npm@latest
+
+verificar la vercin de npm:
+
+npm --version 
+
+para resetear la cache y tener una instalacion en limpio:
+
+npm cache clean --force 
+
+-------------------------------------------------------
+LEBANTAR EL SERVIDOR DE NODE
+
+npm start 
+
+Para levantar el servidor primero devemos de ingresar a la carpeta del proyecto:
+cd NombreDelProtecto
+
+Ya dentro ejecutamos el comando:
+npm start
+
+para detener el cervidor solo precionamos:
+ctrl + c
+
+el siguiente comando lo que hace es crear codigo HTML CSS y JAVASCRIPT final que usaremos en nuestro proyecto
+npm rum build
+
+--------------------------------------------------------
+Conectarnos a nuestro cervidor de node dentro de nuestra red local hacemos lo siguiente:
+
+desde una ventana CMD escribimos:
+
+ipconfig 
+
+dentro del listado buscamos la direccion ip ipv4 de nuestra red y esa ip la ingresamos a nuestro dispositivo ejemplo:
+
+192.168.1.40:3000  el puerto 3000 puede cambiar depende node
+
+--------------------------------------------------------
+
+instalacion de los paquetes de react js
+
+npm install -g create-react-app
+
+--------------------------------------------------------
+creamos nustro primer proyecto con react
+
+definimos la ruta dondo queremos crear la carpeta que tendra todas las dependecias, luego usamos el siguiente comando
+
+create-react-app nombreDelProyecto
+
+-------------------------------------------------------
+USO DE LA LIBRERIA HTML2CANVAS.
+
+para poder descargar una imagen desde el sitio web
+
+Instalamos la libreria con este comando:
+npm install --save html2canvas
+
+ 	
